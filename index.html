@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Obadara Basit" />
+    <meta name="description" content="Oyin's Nail Salon offers professional manicure and pedicure services, along with bespoke nail art. Book your appointment today for a pampering experience." />
+    <meta name="keywords" content="nail salon, manicure, pedicure, nail art, beauty, self-care, Oyin's Nail Salon" />
+    <meta name="robots" content="index, follow" />
+    <meta name="image" content="nail1.jpg" />
+    <title>Oyin Nails Haven // Professional Manicure & Pedicure Salon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Oyin's <span>Nail Salon</span></a>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#booking" class="active">Book Now</a>
+    </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+        <h1 class="starter">
+            Welcome to <span>The Nail Pimp</span>
+        </h1>
+            <h3>
+                Keep your fingers and feet pristine<br>
+              beautiful nails, beautiful you.
+            </h3>
+            <p>We provide top-quality nail care services in a relaxing and welcoming environment.</p>
+            <div class="btn-box">
+                <a href="#booking" class="btn">Book an Appointment</a>
+            </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Our Works:</h2>
+            <p>Discover our stunning nail designs and impeccable craftsmanship.</p>
+    <div class="Nail-grid">
+        <img src="nail1.jpg" alt="professional manicure">
+        <img src="nail2.jpg" alt="professional pedicure">
+        <img src="nail3.jpg" alt="nail art">
+        <img src="nail4.jpg" alt="gel nails">
+        <img src="nail5.jpg" alt="acrylic nails">
+    </div>
+    </section>
+    </main>
+    <section id="booking" class="booking">
+        <h3>Book an Appointment</h3>
+        <form action="https://formspree.io/f/maqlejnj" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+            <label for="date">Preferred Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+    
+            <label for="service">Service:</label><br>
+            <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="nail-art">Nail Art</option>
+            </select><br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h3>The story behind <span>The Nail Pimp</span></h3>
+            <p>Founded by Oyin, Our Haven was born out of a passion for beauty
+                 and a desire to provide exceptional nail care in a welcoming environment.
+                We believe that your nails are the ultimate accessory - a canvas where 
+            elegance meets personality.</p>
+            <p>Whether its a classic French tip or a bold bespoke design, we use premium 
+                products to ensure your nails look their best. The health of your nails is our priority.</p>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <h3>Our Services:</h3>
+        <p>Manicures, pedicures, and bespoke nail art crafted with care and precision.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Oyin's Nail Salon | All Rights Reserved</p>
+        <p>Follow us: 
+            <a href="https://www.instagram.com//The_Nail_Pimp" target="_blank">Instagram</a>  
+            <a href="https://www.tiktok.com/@the_nailpimp" target="_blank">TikTok</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
