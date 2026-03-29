@@ -7,24 +7,27 @@
     --white: #ffffff;
     --luxury-gold: #d4af37;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body {
     background-color: var(--soft-blush);
     font-family: 'Poppins', sans-serif;
     color: var(--dark-text);
     line-height: 1.6rem;
 }
+
 header {
     background: linear-gradient(rgba(255, 240, 243, 0.8), rgba(255, 240, 243, 0.8)), url('nail1.jpg') center/cover no-repeat;
     color: white;
-    padding:60px 20px;
+    padding: 60px 20px;
     text-align: center;
-   
+
 }
 
 .Nails-grid {
@@ -34,13 +37,15 @@ header {
     background-color: aliceblue;
     padding: 50px 9%;
 }
+
 img {
-    height:  250px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
     transition: 0.4s;
 }
+
 img:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -50,14 +55,16 @@ img:hover {
     padding: 80px 9%;
     text-align: center;
     font-weight: bold;
-    
+
 }
+
 .services h3 {
     color: black;
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 button {
     background-color: var(--primary-pink);
     color: white;
@@ -70,21 +77,25 @@ button {
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 15px rgba(255, 133, 162, 0.4);
 }
+
 button:hover {
     background-color: #ff5c8d;
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(255, 132, 162, 0.5);
 }
+
 .services p {
     font-size: 2.1rem;
     color: #666;
 }
+
 footer {
     background-color: var(--dark-text);
     text-align: center;
     padding: 40px 9%;
     color: var(--white);
 }
+
 footer a {
     color: var(--primary-pink);
     text-decoration: none;
@@ -92,6 +103,7 @@ footer a {
     font-weight: 600;
     transition: color 0.3s ease;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -102,6 +114,7 @@ nav {
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
+
 nav a {
     color: var(--dark-text);
     margin: 0 20px;
@@ -112,9 +125,11 @@ nav a {
     letter-spacing: 1px;
     transition: color 0.3s ease;
 }
+
 nav a:hover {
     color: var(--primary-pink);
 }
+
 .starter {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
@@ -127,9 +142,11 @@ nav a:hover {
     color: var(--dark-text);
     text-shadow: none;
 }
+
 h1 {
     font-size: 3rem;
 }
+
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
@@ -139,21 +156,25 @@ h2 {
     margin: 0 auto 30px;
     text-align: center;
 }
+
 .booking {
     background-color: var(--white);
     padding: 60px 9%;
     max-width: 600px;
-    margin : 50px auto;
+    margin: 50px auto;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
+
 .booking h3 {
     font-size: 2.5rem;
     margin-bottom: 30px;
     color: var(--dark-text);
     font-family: 'Playfair Display', serif;
 }
-input, select {
+
+input,
+select {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -162,6 +183,7 @@ input, select {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
+
 .about {
     padding: 80px 9%;
     text-align: center;
@@ -169,25 +191,30 @@ input, select {
     justify-content: center;
     background-color: var(--white);
 }
+
 .about-content {
     max-width: 800px;
     text-align: center;
 }
+
 .about-content h3 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: var(--dark-text);
     font-family: 'Playfair Display', serif;
 }
+
 .about-content p {
     font-size: 1.1rem;
     color: #555;
     line-height: 1.8;
     margin-top: 2rem;
 }
+
 .about-content h3 span {
     color: var(--primary-pink);
 }
+
 .home-content {
     max-width: 800px;
     margin: 0 auto;
@@ -198,6 +225,7 @@ input, select {
     justify-content: center;
     align-items: center;
 }
+
 .home-content h3 {
     font-size: 2.2rem;
     color: var(--dark-text);
@@ -206,7 +234,9 @@ input, select {
     margin-bottom: 1rem;
     line-height: 3rem;
 }
-.home-content p, .gallery p {
+
+.home-content p,
+.gallery p {
     font-size: 1.1rem;
     color: #666;
     margin-bottom: 2.5rem;
@@ -214,6 +244,7 @@ input, select {
     margin-left: auto;
     margin-right: auto;
 }
+
 .btn-box .btn {
     display: inline-block;
     background-color: var(--primary-pink);
@@ -228,34 +259,65 @@ input, select {
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 15px rgba(255, 133, 162, 0.4);
 }
+
 .btn-box .btn:hover {
     background-color: var(--dark-text);
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(255, 132, 162, 0.5);
 }
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
     transform: translateY(30px);
     transition: all;
 }
+
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
 }
+
 .Nail-grid img:nth-child(1) {
     transition-delay: 0.2s;
 }
+
 .Nail-grid img:nth-child(2) {
     transition-delay: 0.4s;
 }
+
 .Nail-grid img:nth-child(3) {
     transition-delay: 0.6s;
 }
+
 .Nail-grid img:nth-child(4) {
     transition-delay: 0.8s;
 }
+
 .Nail-grid img:nth-child(5) {
     transition-delay: 1s;
+}
+
+@media (max-width: 768px) {
+    .Nails-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 30px 5%;
+    }
+
+    .services {
+        padding: 60px 5%;
+    }
+
+    .booking {
+        padding: 40px 5%;
+    }
+
+    .about {
+        padding: 60px 5%;
+
+        .home-content {
+            padding: 60px 5%;
+        }
+    }
 }
